@@ -21,7 +21,8 @@ spec:
         app: frontend
     spec:
       containers:
-      - image: ghcr.io/cloudnativedaysjp/cnd-handson-app/frontend:latest
+      # - image: ghcr.io/cloudnativedaysjp/cnd-handson-app/frontend:latest
+      - image: ghcr.io/cloudnativedaysjp/cnd-handson-app/frontend-v1:latest
         imagePullPolicy: IfNotPresent
         name: frontend
         ports:
